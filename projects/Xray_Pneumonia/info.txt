@@ -1,0 +1,2 @@
+CNN based model to identify if a patient is suffering from pneumonia or not based on the chest X-rays.
+Dataset is obtained from Kaggle - https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia

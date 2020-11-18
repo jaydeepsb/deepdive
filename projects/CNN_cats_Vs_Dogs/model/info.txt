@@ -1,0 +1,2 @@
+Json file contains the model architecture
+h5 file contains the weights.
