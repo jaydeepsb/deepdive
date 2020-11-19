@@ -222,20 +222,22 @@
     </header>
 
       <!-- ################ Filter buttons for work blocks ################ -->
-    <div>
-      <button class="btn btn-primary filter-button" data-filter="all">All</button>
-      <button class="btn btn-default filter-button" data-filter="cnn">Neural Network</button>
-      <button class="btn btn-default filter-button" data-filter="mva">Matrix Factorization</button>
-      <button class="btn btn-default filter-button" data-filter="nlp">NLP</button>
-  </div>
+      <div class="filter filter-basic">
+        <div class="filter-nav">
+          <button class="btn btn-success active" data-filter="">All</button>
+          <button class="btn btn-primary" data-filter="nature">Neural Network</button>
+          <button class="btn btn-primary" data-filter="mva">Matrix factorization</button>
+          <button class="btn btn-primary" data-filter="nlp">NLP</button>
+        </div>
   <br/>
 
       <!-- ################ All work blocks below here ################ -->
+    <div class="filter-gallery">
       <div class="grid row grid-row-gap-50px">
 
       <!-- Work block --> <!-- ******************* CNN CATS VS DOGS *************************************** -->
       <!-- Work block --> <!-- **************************************************************************** -->
-        <div class="col-md-3 filter cnn">
+        <div class="item" data-category="cnn">
           <div class="card border-primary" style="max-width: 16rem;">
           <img class="card-img-top" src="projects/CNN_cats_Vs_Dogs/thumbnail.png" alt="Convolutional neural network">
             <div class="card-body">
@@ -251,7 +253,7 @@
       <!-- Work block --> <!-- *********************** CNN Visualization *************************************** -->
       <!-- Work block --> <!-- **************************************************************************** -->
 
-          <div class="col-md-3 filter cnn">
+      <div class="item" data-category="cnn">
             <div class="card border-primary" style="max-width: 16rem;">
             <img class="card-img-top" src="projects/CNN_Visualize_Filters_featureMaps/thumbnail.png" alt="CNN visualization">
               <div class="card-body">
@@ -266,7 +268,7 @@
       <!-- Work block --> <!-- *********************** CNN X-ray pneumonia *************************************** -->
       <!-- Work block --> <!-- **************************************************************************** -->
 
-      <div class="col-md-3 filter cnn">
+      <div class="item" data-category="cnn">
       <div class="card border-primary" style="max-width: 16rem;">
         <img class="card-img-top" src="projects/Xray_Pneumonia/thumbnail.png" alt="Xray_Pneumonia">
           <div class="card-body">
@@ -281,7 +283,7 @@
       <!-- Work block --> <!-- *********************** Book recommenderSys *************************************** -->
       <!-- Work block --> <!-- **************************************************************************** -->
 
-      <div class="col-md-3 filter mva nlp">
+      <div class="item" data-category="cnn">
         <div class="card border-primary" style="max-width: 16rem;">
         <img class="card-img-top" src="projects/recommenderSys/thumbnail.png" alt="recommenderSys">
           <div class="card-body">
@@ -296,7 +298,7 @@
 
       <!-- Work block --> <!-- *********************** Corona articles Clustering *************************************** -->
       <!-- Work block --> <!-- **************************************************************************** -->
-      <div class="col-md-3 filter mva nlp">
+      <div class="item" data-category="cnn">
         <div class="card border-primary" style="max-width: 16rem;">
         <img class="card-img-top" src="projects/MVA/thumbnail.png" alt="MVA-clustering">
           <div class="card-body">
@@ -309,8 +311,8 @@
         </div>
       </div>
     <!-- #############  All work blocks end #####################-->
-  </div>
-
+      </div>
+    </div>
   </div>
 </section>
 
