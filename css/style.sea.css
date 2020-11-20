@@ -161,6 +161,7 @@ a.contact-item .contact-item-title, a.contact-item p {
   color: #2E3349;
 }
 
+/*  ************* original ***********
 .social-link {
   width: 34px;
   height: 34px;
@@ -175,6 +176,24 @@ a.contact-item .contact-item-title, a.contact-item p {
   color: #aaa;
   transition: all 0.3s;
   font-size: 0.8rem;
+}
+************* Edited by me ***********
+*/
+
+.social-link {
+  width: 75px;
+  height: 75px;
+  border-radius: 200%;
+  border: 3px solid #ddd;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #aaa;
+  transition: all 0.3s;
+  font-size: 3.5rem;
 }
 
 .social-link:hover, .social-link:focus {
